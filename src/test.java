@@ -1,17 +1,19 @@
-import java.lang.Exception;
-import java.lang.*;
-
 /**
  * Created by chrisditchburn on 01/02/2014.
+ *
+ * This is a simple test used to learn GitHub
+ *
  */
 public class test{
 
     public static void main(String[] args)  {
 
         try {
-            Integer numberOne = new Integer(1);
-            Integer numberTwo = new Integer(2);
+            Integer numberOne = 1;
+            Integer numberTwo = 2;
             Integer result = numberOne * numberTwo;
+
+            result++;
             System.out.println(result.toString());
 
         } catch (Exception exception) {
